@@ -1,0 +1,8 @@
+devid=Rabios
+devtitle=Rabia Alhaffar
+gameid=Spikefall
+gametitle=Spikefall
+version=0.1
+icon=metadata/icon.png
+compile_ruby=true
+packageid=org.steria773.spikefall
