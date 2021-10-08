@@ -427,9 +427,9 @@ def game args
   handle_gameplay args
   
   args.outputs.primitives << Label.new(
-    0,
+    10,
     10.from_top,
-    args.state.highscore,
+    (args.state.highscore > args.state.score) ? args.state.highscore : args.state.score,
     24,
     "fonts/ARCADE_N.ttf",
     255,
@@ -438,7 +438,7 @@ def game args
     args.state.fade)
   
   args.outputs.primitives << Label.new(
-    10,
+    15,
     80.from_top,
     args.state.score,
     10,
